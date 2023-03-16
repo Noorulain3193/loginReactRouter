@@ -1,0 +1,41 @@
+.name {
+  font-family: "Tilt Prism", cursive;
+  font-size: 40px;
+  padding: 0px;
+}
+
+.name:hover {
+  cursor: pointer;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.logIn {
+  border: solid 1x;
+  border-color: rgb(247, 242, 242);
+  background-color: blue;
+  padding: 8px 12px 8px 12px;
+  border-radius: 4px;
+  color: aliceblue;
+}
+
+.logIn:hover {
+  cursor: pointer;
+  background-color: rgb(40, 40, 195);
+  box-shadow: 0 0 2px rgb(201, 195, 195);
+}
+.navComp {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navItem {
+  margin: 0px 40px 0px 40px;
+  color: rgb(20, 20, 20);
+}

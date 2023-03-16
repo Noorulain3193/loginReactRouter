@@ -1,0 +1,66 @@
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+}
+
+.bodyRt {
+  padding: 50px;
+  margin-right: -80px;
+  margin-bottom: 100px;
+  width: 500px;
+}
+
+.bodyLt {
+  height: 600px;
+  width: 600px;
+  object-fit: cover;
+  margin-top: 60px;
+
+  margin-right: 120px;
+  border-radius: 30px;
+  box-shadow: 0 0 10px darkgray;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input,
+label {
+  display: block;
+}
+
+.heading {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.input {
+  width: 380px;
+  height: 40px;
+  margin-top: 8px;
+  border-width: 1px;
+  border-color: rgba(169, 169, 169, 0.57);
+}
+
+.label {
+  margin-top: 20px;
+}
+
+.signIn {
+  background-color: blue;
+  color: white;
+  width: 380px;
+  height: 40px;
+  margin-top: 30px;
+  border-radius: 8px;
+  box-shadow: 5px 8px 10px rgb(156, 157, 183);
+}
+
+.signIn:hover {
+  cursor: pointer;
+  background-color: rgb(40, 40, 195);
+}
